@@ -16,5 +16,5 @@ jobs:
           key: ${{secrets.SSH_KEY}}
           source: "./html/*"
           target: "/var/www/html"
-          passphase: Wys20040206
+          password: Wys20040206
           strip_components: 1
